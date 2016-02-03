@@ -1,12 +1,13 @@
 % @Author: anchen
 % @Date:   2015-12-31 15:09:02
-% @Last Modified by:   leoatchina
-% @Last Modified time: 2016-01-13 22:06:10
+% @Last Modified by:   anchen
+% @Last Modified time: 2016-01-29 17:16:23
 
 \documentclass[UTF8]{ctexart}
 \usepackage{graphicx}
 \usepackage{geometry}
 \usepackage[greek,english]{babel}
+\usepackage{texnames}
 \geometry{a6paper,centering,scale=0.8}
 \title{勾股定理}
 \author{陶涛}
@@ -15,26 +16,29 @@
 
 \maketitle
 
-\tableofcontents
+% \tableofcontents
 
 \begin{abstract}
 小结摘要\emph{这个是摘要}
 \end{abstract}
 
 \begin{quote}
-\zihao{-5}\kaishu 若求邪至日者，以日下为勾，日高为股,$a+b$勾股各自乘 \footnote{这个是最原始的定义}
+\zihao{-5}\kaishu 若求邪至日者，以日下为勾，日高为股,$a+b$勾股各自\$乘 \footnote{这个是最原始的定义}
 \begin{equation}
 a(a+b)=cd
 \end{equation}
+% \vspace{6.5mm}
 \textgreek{abcde}
 \end{quote}
 
 \section{第一段}
-这是第一段如是不出现问题，那么在明天的9点30分，你们奖看到一个闪耀的太阳
+这是第一段如是不出现问题，那么在明天的9点30分，你们将看到一个闪耀的太阳
 \section{第二段}
 这里第二段，三日凌空，这将是三体世界的末日，没有任何物种，会在这种高温下生存\footnote{人的生命}
 $\angle ACB=\pi /2,90^\circ$
-
+\TeX
+\LaTeX
+\MF \AMSTEX
 \begin{table}
 \begin{tabular}{|rrr|}
 \hline
@@ -46,5 +50,8 @@ $\angle ACB=\pi /2,90^\circ$
 \end{tabular}%
 
 \end{table}
+\the\parindent
+
+\fbox{系统}
 \bibliography{math}
 \end{document}
